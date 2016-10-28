@@ -1,0 +1,10 @@
+class CfgFunctions {
+	#include "Functions.hpp"
+};
+
+respawn = "BASE";
+respawnDelay = 5;
+respawnTemplates[] = {"MenuPosition"};
+respawnOnStart = 1;
+
+disabledAI = 1;
