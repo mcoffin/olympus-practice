@@ -9,5 +9,6 @@ class CYETI {
 	
 	class menus {
 		class setupTeleportMenu {};
+		class setupRankMenu {};
 	};
 };
