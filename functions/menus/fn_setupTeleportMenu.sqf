@@ -6,7 +6,9 @@ CYETI_menu_teleport = [
 	["HQ", [2], "", -5, [["expression", "[player, 'marker_b_hq'] call CYETI_fnc_teleportToMarker"]], "1", "1"],
 	["Mushroom Cartel", [3], "", -5, [["expression", "[player, 'marker_shroomStaging'] call CYETI_fnc_teleportToMarker"]], "1", "1"],
 	["Moonshine Cartel", [4], "", -5, [["expression", "[player, 'marker_moonStaging'] call CYETI_fnc_teleportToMarker"]], "1", "1"],
-	["Meth Cartel", [5], "", -5, [["expression", "[player, 'marker_methStaging'] call CYETI_fnc_teleportToMarker"]], "1", "1"]
+	["Meth Cartel", [5], "", -5, [["expression", "[player, 'marker_methStaging'] call CYETI_fnc_teleportToMarker"]], "1", "1"],
+	["Federal Reserve", [6], "", -5, [["expression", "[player, 'marker_fedStaging'] call CYETI_fnc_teleportToMarker"]], "1", "1"],
+	["Blackwater", [7], "", -5, [["expression", "[player, 'marker_bwStaging'] call CYETI_fnc_teleportToMarker"]], "1", "1"]
 ];
 
 _openTeleportMenu = {showCommandingMenu "#USER:CYETI_menu_teleport"};
