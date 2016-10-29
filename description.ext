@@ -10,6 +10,8 @@ class CfgRespawnInventory {
 	#include "Loadouts.hpp"
 };
 
+
+
 respawn = "BASE";
 respawnDelay = 5;
 respawnTemplates[] = {"MenuPosition", "MenuInventory"};
