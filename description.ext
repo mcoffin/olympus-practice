@@ -2,9 +2,17 @@ class CfgFunctions {
 	#include "Functions.hpp"
 };
 
+class CfgRoles {
+	#include "Roles.hpp"
+};
+
+class CfgRespawnInventory {
+	#include "Loadouts.hpp"
+};
+
 respawn = "BASE";
 respawnDelay = 5;
-respawnTemplates[] = {"MenuPosition"};
+respawnTemplates[] = {"MenuPosition", "MenuInventory"};
 respawnOnStart = 1;
 
 disabledAI = 1;
